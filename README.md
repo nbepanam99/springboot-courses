@@ -13,20 +13,16 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 		      </dependency>
 
 3. Basic Auth.
+```
      +--------+                               +---------------+
-     |        |--(A)- Authorization Request ->|   Resource    |
-     |        |                               |     Owner     |
-     |        |<-(B)-- Authorization Grant ---|               |
-     |        |                               +---------------+
-     |        |
-     |        |                               +---------------+
-     |        |--(C)-- Authorization Grant -->| Authorization |
+     |        |--(A)-----  Get Request  ----->| Authorization |
      | Client |                               |     Server    |
-     |        |<-(D)----- Access Token -------|               |
-     |        |                               +---------------+
-     |        |
-     |        |                               +---------------+
-     |        |--(E)----- Access Token ------>|    Resource   |
+     |        |<-(B)---- 401 Unauthorized ----|               |
+     |        |                               |               |
+     |        |                               |               |
+     |        |--(C)---  Get Request          |               |
+     |	      |	   B64 username/password  --->|    Resource   |
      |        |                               |     Server    |
-     |        |<-(F)--- Protected Resource ---|               |
+     |        |<-(D)---    200 Ok	   ---|               |
      +--------+                               +---------------+
+```
