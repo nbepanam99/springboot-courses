@@ -34,4 +34,4 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 | WebSecurityConfigurerAdapter  | configure()  |  |  |
 |   | |http.authorizeRequest.antMAtchers("patern")  |  |
 |   |  |anyRequest().authentificated  |   |
-||userDetailsService()||How we retrive User from DB|
+||userDetailsService()||How we retrieve User from DB|
