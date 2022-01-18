@@ -26,3 +26,5 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
      |        |<-(D)---    200 Ok	   ---|               |
      +--------+                               +---------------+
 ```
+
+4. ApplicationSecurityConfig
