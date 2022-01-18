@@ -36,6 +36,12 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 
 ## JPA
 
+|Anotation|Option|Description|
+|---|---|---|
+|@SequenceGenerator|name, sequenceName, AllocationSize|generate sequence for id|
+|@GeneratedValue|strategy GenerationType.[AUTO,SEQUENCE,IDENTITY,TABLE], generator|Mode for generation|
+
+
 ### Annexe : 
 
 | Extend  | Override | Command | Description |
