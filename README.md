@@ -27,7 +27,10 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
      +--------+                               +---------------+
 ```
 
-4. ApplicationSecurityConfig
+4. ApplicationSecurityConfig : Class to create for configuration
+5. PasswordEncoder :
+
+### Annexe : 
 
 | Extend  | Override | Command | Description |
 | ------------- | ------------- | ------------- | ------------- |
