@@ -29,6 +29,8 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 
 4. ApplicationSecurityConfig : Class to create for configuration
 5. PasswordEncoder : We must encode password with encoder like BCryptPasswordEncoder.
+6. Roles base authentification : Hight level view of users. Role have permissions.
+7. Permission bases authentification :  
 
 ### Annexe : 
 
