@@ -28,3 +28,8 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 ```
 
 4. ApplicationSecurityConfig
+
+Extend			    | Override  |Command | Description |
+WebSecurityConfigurerAdapter| configure	| --     | --- 	    |
+ 			    | 	        | http.authorizeRequest.antMAtchers("patern") |
+ 			    |		| anyRequest().authentificated |
