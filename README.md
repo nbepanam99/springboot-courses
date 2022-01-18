@@ -40,6 +40,8 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 |---|---|---|
 |@SequenceGenerator|name, sequenceName, AllocationSize|generate sequence for id|
 |@GeneratedValue|strategy GenerationType.[AUTO,SEQUENCE,IDENTITY,TABLE], generator|Mode for generation|
+|---|---|---|
+|@Transient||not to be persisted in the database|
 
 
 ### Annexe : 
