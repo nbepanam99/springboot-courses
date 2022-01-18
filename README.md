@@ -1,6 +1,8 @@
-# springboot-courses
+# SpringBoot-courses
 
 Initialize Spring application from [Spring Initializr](https://start.spring.io/) 
+
+## Spring Core
 
 
 ## Spring Security
@@ -31,6 +33,8 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 5. PasswordEncoder : We must encode password with encoder like BCryptPasswordEncoder.
 6. Roles base authentification : Hight level view of users. Role have permissions.
 7. Permission bases authentification :  
+
+## JPA
 
 ### Annexe : 
 
