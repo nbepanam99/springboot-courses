@@ -44,6 +44,13 @@ Initialize Spring application from [Spring Initializr](https://start.spring.io/)
 |@Transient||not to be persisted in the database|
 
 
+## Enable HTTPS
+
+### Get SSL certifcat.
+
+
+
+
 ### Annexe : 
 
 | Extend  | Override | Command | Description |
